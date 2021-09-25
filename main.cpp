@@ -222,7 +222,7 @@ int main()
     //1)
     auto biggerThanResult = biggerThan(2,1);
     auto numOfLegs("walrus");
-    auto squareRootOfFour = (4.0, 2);
+    auto squareRootOfFour = root(4.0, 2);
     auto isEven(4);
     auto isCoolCharacter('x');
     auto addressFromPhoneNumber(3195699019);
@@ -231,7 +231,10 @@ int main()
     auto six = addThreeNumbers(1.0,2.0,3.0);
     auto isTwoPrime = isPrime(2);
 
-    ignoreUnused(biggerThanResult, numOfLegs, isEven,isCoolCharacter,addressFromPhoneNumber,bigProduct,rem, six, isTwoPrime, carRented);
+    ignoreUnused(squareRootOfFour);
+
+    ignoreUnused(biggerThanResult, numOfLegs, isEven,isCoolCharacter,addressFromPhoneNumber,bigProduct,rem, six, isTwoPrime, carRented,
+    squareRootOfFour);
 
     std::cout << "good to go!" << std::endl;
     return 0;    
