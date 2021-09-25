@@ -220,15 +220,15 @@ int main()
     auto carRented = rentACar(6, 2); 
     
     //1)
-    auto biggerThanResult = biggerThan(2,1);
+    auto biggerThanResult = biggerThan(2, 1);
     auto numOfLegs("walrus");
     auto squareRootOfFour = root(4.0, 2);
     auto isEven(4);
     auto isCoolCharacter('x');
     auto addressFromPhoneNumber(3195699019);
-    auto bigProduct = multiply(1,1);
-    auto rem = modulo(15,4);
-    auto six = addThreeNumbers(1.0,2.0,3.0);
+    auto bigProduct = multiply(1, 1);
+    auto rem = modulo(15, 4);
+    auto six = addThreeNumbers(1.0, 2.0, 3.0);
     auto isTwoPrime = isPrime(2);
 
     ignoreUnused(squareRootOfFour);
