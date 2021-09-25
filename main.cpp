@@ -88,7 +88,7 @@ void variableDeclarations()
     bool senateSupermajority = false;
 
     
-    ignoreUnused(pennies, dimes, dollars, money, temperature, height, eight, seven, coolLetter, price,opacity, boiling); //passing each variable declared to the ignoreUnused() function
+    ignoreUnused(pennies, dimes, dollars, money, temperature, height, eight, seven, coolLetter, price,opacity, boiling, number, isTodayChristmas, isTodayBelowFreezing, senateSupermajority); //passing each variable declared to the ignoreUnused() function
 }
 
 /*
