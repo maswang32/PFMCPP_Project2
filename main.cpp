@@ -83,6 +83,10 @@ void variableDeclarations()
     double opacity = 0.85;
     double boiling = 212.0;
 
+    bool isTodayChristmas = false;
+    bool isTodayBelowFreezing = false;
+    bool senateSupermajority = false;
+
     
     ignoreUnused(pennies, dimes, dollars, money, temperature, height, eight, seven, coolLetter, price,opacity, boiling); //passing each variable declared to the ignoreUnused() function
 }
@@ -111,7 +115,7 @@ bool biggerThan(int x, int y)
 /*
  2)
  */
-int numOfLegs(char* animal, int numOfArms = 2)
+int numOfLegs(char animal, int numOfArms = 2)
 {
     ignoreUnused(animal, numOfArms);
     return {};
@@ -190,7 +194,7 @@ double addThreeNumbers(double x = 1, double y = 1, double z = 1)
  10)
  */
 
-bool isPrime(int x=2)
+bool isPrime(int x = 2)
 {
     ignoreUnused(x);
     return {};
@@ -227,17 +231,7 @@ int main()
     auto six = addThreeNumbers(1.0,2.0,3.0);
     auto isTwoPrime = isPrime(2);
 
-    
-    ignoreUnused(biggerThanResult);
-    ignoreUnused(numOfLegs);
-    ignoreUnused(isEven);
-    ignoreUnused(isCoolCharacter);
-    ignoreUnused(addressFromPhoneNumber);
-    ignoreUnused(bigProduct);
-    ignoreUnused(rem);
-    ignoreUnused(six);
-    ignoreUnused(isTwoPrime);
-    ignoreUnused(carRented);
+    ignoreUnused(biggerThanResult, numOfLegs, isEven,isCoolCharacter,addressFromPhoneNumber,bigProduct,rem, six, isTwoPrime, carRented);
 
     std::cout << "good to go!" << std::endl;
     return 0;    
